@@ -34,7 +34,7 @@ def evaluate_cf():
                     counter += 1
                     i += 1
             if floor[i] == 0:
-                pass
+                floor[i] += 1
             else:
                 floor[i] -= 1
         ansdict[str(index)] = counter
